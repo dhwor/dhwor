@@ -41,15 +41,7 @@
         kmw.init({attachType:'auto'});
         kmw.addKeyboards('@en');
         kmw.addKeyboards('@th');
-        kmw.addKeyboards({
-            id:'arb',                  // The keyboard's unique identification code.
-            name:'Arabic (101)',           // The keyboard's user-readable name.
-            language:{
-              id:'arb',                // A BCP 47 code uniquely identifying the language.
-              name:'Arabic, Standard'     // The language's name.
-            },
-            filename:'./arabic_101-1.0.js'    // A valid path to the compiled *.js file representing the keyboard.
-        });
+        kmw.addKeyboards('@arb');
       })(keyman);
     </script>
   </body>
